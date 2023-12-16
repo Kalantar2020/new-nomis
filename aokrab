@@ -120,7 +120,7 @@ EOF
 ---------------------------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 
-----------------------------------------------------
+--------------u--------------------------------------
 sudo systemctl enable celestia-appd
 sudo systemctl daemon-reload
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
@@ -138,5 +138,4 @@ cd $HOME
 rm -rf ~/.celestia-app/data
 mkdir -p ~/.celestia-app/data
 SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
-    egrep -o ">mamaki.*tar" | tr -d ">")
-wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar xf - \
+    egrep -o ">mamaki.*tar" | tr -d "
