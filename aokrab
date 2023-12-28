@@ -123,5 +123,4 @@ sudo systemctl enable celestia-appd
 sudo systemctl daemon-reload
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 
-------------------------------------------------------------
-Press CTRL+C to stop the 
+-----------------------------------------------------------
