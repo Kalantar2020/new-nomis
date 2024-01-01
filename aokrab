@@ -119,4 +119,3 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 
 --------------u--------------------------------------
-sudo systemctl enable celestia-appd
