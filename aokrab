@@ -115,5 +115,4 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
   LimitNOFILE=65535
 [Install]
   WantedBy=multi-user.targe
----------------------------------------------------
-sudo mv $HOME/celestia-appd.service /etc/systemd/system
+------------------------------------------------
