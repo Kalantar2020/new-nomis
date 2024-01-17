@@ -87,4 +87,4 @@ pruning_interval="10"
 ------------------------------------------------------
 
 sed -i -e "s/^pruning *=.*/pruning = \"custom\"/;\
-s/^pruning-keep-recent *=.*/pruning-keep-recent = \"$pruning_keep_recent\"/
+s/^pruning-keep-recent *=.*/pruning-keep-recent = \
