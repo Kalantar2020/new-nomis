@@ -77,5 +77,4 @@ max_connections=50
 ----------------------------------------------------------------
 sed -i -e "s/^use-legacy *=.*/use-legacy = false/;\
 s/^max-num-inbound-peers *=.*/max-num-inbound-peers = $max_num_inbound_peers/;\
-s/^max-num-outbound-peers *=.*/max-num-outbound-peers = $max_num_outbound_peers/;\
-s/^max-connections *=.*/
+s/^max-num-outbound-peers *=.*/max-num-outbound-peers = $max_num_outbound_peers/
